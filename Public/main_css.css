@@ -249,3 +249,43 @@ button {
 	transform: translate(-50%, -50%);
 	text-align: center;
 }
+
+.note {
+	background-image: -webkit-linear-gradient(0deg, #0A0012, #6B0047);
+	min-height: 150px;
+	width: 520px;
+	position: absolute;
+	border-radius: 15px;
+	opacity: 0.9;
+}
+
+.shadow {
+	position: absolute;
+	min-height: 150px;
+	width: 520px;
+	box-shadow: 5px 10px 8px #595858;
+	transform: rotate(4deg);
+}
+
+.shadow:hover {
+	position: absolute;
+	min-height: 150px;
+	width: 520px;
+	box-shadow: 0px 0px 0px;
+	transform: rotate(0deg); 
+}
+
+.pas {
+	top: 540%;
+	right: 430px;
+}
+
+.pre {
+	top: 570%;
+	right: 430px;
+}
+
+.fut {
+	top: 600%;
+	right: 430px;
+}
