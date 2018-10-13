@@ -1,0 +1,251 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+#main {
+	background-image: url("images/i1.jpg");
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about {
+	height: 77%; 
+	background-color: #FEEAD2;
+	background-attachment: fixed;
+}
+
+#about1 {
+	height: 16.5%; 
+	background-color: #FEEAD2;
+	background-attachment: fixed;
+}
+
+#aboutws {
+	background-image: url("images/nextbg.jpg");
+	height: 80%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 3000;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 34%;
+  font-size: 3.5rem;
+  transform: translate(-50%, -50%);
+}
+
+
+#main span {
+	color: white;
+	font-size: 1.5rem;
+	position: absolute;
+	top: 22.5%;
+	left: 15%;
+}
+
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+.a1 {
+	border: solid white;
+	border-width: 0 5px 5px 0;
+	display: inline-block;
+	padding: 30px;
+	position: absolute;
+	top: 76%;
+	left: 47%;
+}
+
+.a2 {
+	border: solid white;
+	border-width: 0 6px 6px 0;
+	display: inline-block;
+	padding: 31px;
+	position: absolute;
+	top: 81%;
+	left: 47%;
+}
+
+#about2 {
+	width: 100%;
+	height: 60%;
+	background-color: #2B1B03;
+	background-attachment: fixed;
+	position: relative;
+}
+
+#about2:after {
+	content: "";
+	position: absolute;
+	bottom: -80px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 674px solid transparent;
+	border-right: 674px solid transparent;
+	border-top: 80px solid #2B1B03;
+}
+
+#book {
+	height: 100%; 
+	background-color: #FEEAD2;
+	background-attachment: fixed;
+}
+
+#aboutus{
+	height: 40%; 
+	background-color: #432A05;
+	background-attachment: fixed;
+}
+
+#copyright{
+	height: 15%; 
+	background-color: #2B1B03;
+	background-attachment: fixed;
+}
+
+#reviews {
+	background-image: url("images/rev.jpg");
+	height: 80%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#last {
+	height: 100%; 
+	background-color: #FEEAD2;
+	background-attachment: fixed;
+}
+
+.footer_menu  li {
+	margin: 0;
+	display:inline-block;
+}
+
+.footer_menu  li a {
+	font-size:14px;
+	font-weight:normal;
+	color:#aaaaaa;
+	font-family: 'Montserrat', sans-serif;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+button {
+	background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 5px;
+}
+
+.circle {
+	border: 2px solid white;
+	border-radius: 50%;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	opacity: 0.9;
+
+	-webkit-box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	box-shadow: 0 0 1px 0px rgb( 255, 255, 255);
+	width: 20px;
+	height: 20px;
+	z-index: 86;
+
+	-webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	-ms-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+}
+
+.circle.filled {
+	background-color: white;
+}
+
+.vl {
+    width: 111px;
+    height: 4px;
+	position: absolute;
+	top: 42.5%;
+}
+
+.active {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+	position: relative;
+	top: 45%;
+}
+
+.hide {
+	display: none;
+}
+
+.container {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: #008CBA;
+	overflow: hidden;
+	width: 100%;
+	height:0;
+	transition: .7s ease;
+	opacity: 0.85;
+}
+
+.container:hover .overlay {
+	bottom: 0;
+	height: 100%;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}

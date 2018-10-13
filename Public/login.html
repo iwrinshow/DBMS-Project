@@ -1,0 +1,66 @@
+<html>
+
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		body {
+			background-image: url("images/bglogin.jpg");
+			max-height: 100%; 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.modal-content{
+			background-color: #a96e5b;
+		}
+		.btn-link{
+			color:white;
+		}
+		.modal-heading h2{
+			color:#ffffff;
+		}
+	</style>
+</head>
+
+<body>
+
+<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-heading">
+			<h2 class="text-center">Login</h2>
+		</div>
+		<hr />
+		<div class="modal-body">
+			<form action="/login" method="POST" role="form">
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">
+						<span class="glyphicon glyphicon-user"></span>
+						</span>
+						<input type="text" class="form-control" placeholder="Username" name="username"/>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="input-group">
+						<span class="input-group-addon">
+						<span class="glyphicon glyphicon-lock"></span>
+						</span>
+						<input type="password" class="form-control" placeholder="Password" name="password"/>
+
+					</div>
+
+				</div>
+
+				<div class="form-group text-center">
+					<button type="submit" class="btn btn-success btn-lg">Login</button>
+					<a href="#" class="btn btn-link">Forgot password</a>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+
+<html>
