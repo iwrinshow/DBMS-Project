@@ -1,0 +1,19 @@
+{
+  "name": "wl_sanc",
+  "version": "1.0.0",
+  "description": "a wildlife sanctuary management system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"server": "nodemon server.js"
+  },
+  "author": "iwrin show",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.4"
+  }
+}
