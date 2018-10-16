@@ -26,7 +26,7 @@ body, html {
 }
 
 #aboutws {
-	background-image: url("images/nextbg.jpg");
+	background-image: url("images/rateus.jpg");
 	height: 80%; 
 	background-attachment: fixed;
 	background-position: center;
@@ -225,7 +225,7 @@ button {
 	bottom: 100%;
 	left: 0;
 	right: 0;
-	background-color: #008CBA;
+	background-color: #8B4513;
 	overflow: hidden;
 	width: 100%;
 	height:0;
@@ -250,8 +250,9 @@ button {
 	text-align: center;
 }
 
+
 .note {
-	background-image: -webkit-linear-gradient(0deg, #0A0012, #6B0047);
+	background-image: -webkit-linear-gradient(0deg, #183B15, #8B4513);
 	min-height: 150px;
 	width: 520px;
 	position: absolute;
@@ -276,16 +277,105 @@ button {
 }
 
 .pas {
-	top: 540%;
-	right: 430px;
+	top: 520%;
+	left: 45%;
 }
 
 .pre {
-	top: 570%;
-	right: 430px;
+	top: 550%;
+	left: 55%;
 }
 
 .fut {
-	top: 600%;
-	right: 430px;
+	top: 580%;
+	left: 50%;
 }
+
+#rateus {
+	background-image: url("images/nextbg.jpg");
+	height: 80%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#form_feed {
+	position: relative;
+	top: 23%;
+	left: 17%;
+	width: 65%;
+	height: 63%; 
+	border-radius: 15px;
+	background-color: #a96e5b;
+}
+
+
+.star-rating {
+	font-size: 0;
+	white-space: nowrap;
+	display: inline-block;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	top: 25%;
+	left: 59%;
+	background: url('images/empty.svg');
+	background-size: contain;
+}
+.star-rating i {
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	z-index: 1;
+	background: url('images/filled.svg');
+	background-size: contain;
+}
+.star-rating input {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	opacity: 0;
+	display: inline-block;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: 2;
+	position: relative;
+}
+.star-rating input:hover + i,
+.star-rating input:checked + i {
+	opacity: 1;
+}
+.star-rating i ~ i {
+	width: 40%;
+}
+.star-rating i ~ i ~ i {
+	width: 60%;
+}
+.star-rating i ~ i ~ i ~ i {
+	width: 80%;
+}
+.star-rating i ~ i ~ i ~ i ~ i {
+	width: 100%;
+}
+::after,
+::before {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.star-rating.star-5 {width: 250px;}
+.star-rating.star-5 input,
+.star-rating.star-5 i {width: 20%;}
+.star-rating.star-5 i ~ i {width: 40%;}
+.star-rating.star-5 i ~ i ~ i {width: 60%;}
+.star-rating.star-5 i ~ i ~ i ~ i {width: 80%;}
+.star-rating.star-5 i ~ i ~ i ~ i ~i {width: 100%;}
+
+
